@@ -9,6 +9,13 @@ h1 {
     text-align: center;
 }
 
+p {
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
 .navbar {
     position: relative;
     overflow: hidden;
@@ -45,12 +52,14 @@ h1 {
 }
 
 .img-medium {
+    float: left;
     width: 250px;
     height: 250px;
     border-radius: 150px;
 }
 
 #map {
+    float: left;
     display: block;
     margin: 0px auto;
     width: 1024px;
@@ -85,4 +94,9 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+}
+
+.carousel-img {
+    width: 1700px;
+    height: 250px;
 }
