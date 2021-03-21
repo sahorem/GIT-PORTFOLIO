@@ -1,3 +1,5 @@
+/* This is a common css file used across all project in the portfolio */
+/* Body style */
 body {
     margin: 0;
     padding: 0;
@@ -5,10 +7,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header style */
 h1 {
     text-align: center;
 }
 
+/* paragraphstyle */
 p {
     float: left;
     font-size: 20px;
@@ -16,6 +20,7 @@ p {
     text-align: center;
 }
 
+/* Navigation Bar style */
 .navbar {
     position: relative;
     overflow: hidden;
@@ -42,28 +47,9 @@ p {
     color: white;
 }
 
+/* Eye movement components style */ 
 #eye_body {
     background: #6495ED;
-}
-
-.img-align-center {
-    display: block;
-    margin: 0px auto;
-}
-
-.img-medium {
-    float: left;
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
-}
-
-#map {
-    float: left;
-    display: block;
-    margin: 0px auto;
-    width: 1024px;
-    height: 640px;
 }
 
 .eyes {
@@ -96,6 +82,29 @@ p {
     border-radius: 50%;
 }
 
+/* control the image on the home page */
+.img-align-center {
+    display: block;
+    margin: 0px auto;
+}
+
+.img-medium {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+/* Control the display of map object */
+#map {
+    float: left;
+    display: block;
+    margin: 0px auto;
+    width: 1024px;
+    height: 640px;
+}
+
+/* Carousel Image style */
 .carousel-img {
     width: 1700px;
     height: 250px;
