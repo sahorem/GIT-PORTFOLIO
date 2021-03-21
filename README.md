@@ -3,6 +3,8 @@
 GIT Portfolio project was done as part of week 11 home assignment. 
 The purpose of this project was to demonstrate the Wbe front end development skills learned during the course. 
 
+Author: Mahesh Sahore 
+
 ## Getting Started
 
 To install this project on your machine,  you fill need to copy the following files 
